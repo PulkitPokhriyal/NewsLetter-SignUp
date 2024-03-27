@@ -1,0 +1,54 @@
+
+.conatiner{
+    text-align: center;
+    margin-top: 10vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 50px;
+    padding-bottom: 8vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    
+}
+.text-area{
+ height: 2.5vw;
+ width: 18vw;
+
+}
+.text-area:hover{
+      border: solid black;
+}
+.button{
+    margin-top: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 5%;
+    background-color: #2196F3;
+    color: white;
+    border: 0;
+}
+.button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.success{
+    background-color: antiquewhite;
+   margin: 0;
+    padding: 3vw;
+}
+.failure{
+    background-color: antiquewhite;
+    margin: 0;
+     padding: 3vw;
+}
